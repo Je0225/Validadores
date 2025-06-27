@@ -5,7 +5,7 @@ Programa simples de validação de CPF, CNPJ e IEs.
 
 ## Funcionalidades
 
-![Captura de tela](captura.png)
+![Captura de tela](tela_principal.png)
 
 - Aplicação Windows
 - Validação de CPF
