@@ -8,34 +8,29 @@ namespace Validadores {
 
   public partial class FormPrincipal : Form {
 
-    private const String CPF = "cpf";
+    private const String CPF = "CPF";
 
-    private const String CNPJ = "cnpj";
+    private const String CNPJ = "CNPJ";
 
-    private const String IE = "ie";
+    private const String IE = "IE";
 
-    private readonly String[] estados = new[] { "PR", "AC", "TO", "PE" };
-
-    private ValidadoresCpfCnpj validadoresCpfCnpj { get; }
-
-    private ValidadoresIe validadoresIe { get; }
+    private Validadores validadores { get; }
 
     public FormPrincipal() {
       InitializeComponent();
-      validadoresCpfCnpj = new ValidadoresCpfCnpj();
-      validadoresIe = new ValidadoresIe();
+      validadores = new Validadores();
       lblResultado.Text = "";
 
-      for (int i = 0; i < estados.Length; i++) {
-        cbUf.Items.Insert(i, estados[i]);
+      for (int i = 0; i < validadores.Estados.Length; i++) {
+        cbUf.Items.Insert(i, validadores.Estados[i]);
       }
     }
 
-    private void ExibeValidacao(TextBox control, ResultadoValidacoes validacao, String documento) {
-      lblResultado.BackColor = validacao.EhValido ? Color.LightGreen : Color.Red;
+    private void ExibeValidacao(TextBox control, ResultadoValidacao validacao, String documento) {
+      lblResultado.BackColor = validacao.EhDocumentoValido ? Color.LightGreen : Color.Red;
       lblResultado.Text = documento;
-      lblResultado.Text += validacao.EhValido ? @" Válido(a)" : @" Inválido(a)";
-      control.Text = validacao.DocumentoFormatado; 
+      lblResultado.Text += validacao.EhDocumentoValido ? @" Válido(a)" : @" Inválido(a)";
+      control.Text = validacao.Documento; 
     }
 
     private void btnValidaCpf_Click(object sender, EventArgs e) {
@@ -43,7 +38,7 @@ namespace Validadores {
         MessageBox.Show(@"Informe um valor no campo 'CPF' para validar.");
         return;
       }
-      ExibeValidacao(tbCpf, validadoresCpfCnpj.ValidaCpf(tbCpf.Text), CPF);
+      ExibeValidacao(tbCpf, validadores.ValidaCpf(tbCpf.Text), CPF);
     }
 
     private void btnValidarCnpj_Click(object sender, EventArgs e) {
@@ -51,7 +46,7 @@ namespace Validadores {
         MessageBox.Show(@"Informe um valor no campo 'CNPJ' para validar.");
         return;
       }
-      ExibeValidacao(tbCnpj, validadoresCpfCnpj.ValidaCnpj(tbCnpj.Text), CNPJ);
+      ExibeValidacao(tbCnpj, validadores.ValidaCnpj(tbCnpj.Text), CNPJ);
     }
 
     private void btnValidarIe_Click(object sender, EventArgs e) {
@@ -61,16 +56,16 @@ namespace Validadores {
       }
       switch (cbUf.SelectedIndex) {
         case 0:
-          ExibeValidacao(tbIe, validadoresIe.IeParana(tbIe.Text), IE);
+          ExibeValidacao(tbIe, validadores.ValidaIeParana(tbIe.Text), IE);
           break;
         case 1:
-          ExibeValidacao(tbIe, validadoresIe.IeAcre(tbIe.Text), IE);
+          ExibeValidacao(tbIe, validadores.ValidaIeAcre(tbIe.Text), IE);
           break;
         case 2:
-          ExibeValidacao(tbIe, validadoresIe.IeTocantins(tbIe.Text), IE);
+          ExibeValidacao(tbIe, validadores.ValidaIeTocantins(tbIe.Text), IE);
           break;
         case 3:
-          ExibeValidacao(tbIe, validadoresIe.ValidacaoPE(tbIe.Text), IE);
+          ExibeValidacao(tbIe, validadores.ValidaIePernambuco(tbIe.Text), IE);
           break;
         default:
           MessageBox.Show(@"Selecione a UF da IE!");

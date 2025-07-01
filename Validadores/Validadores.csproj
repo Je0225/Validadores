@@ -54,11 +54,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResultadoValidacoes.cs" />
-    <Compile Include="ValidadoresCpfCnpj.cs" />
-    <Compile Include="ValidadoresDocumentos.cs" />
-    <Compile Include="ValidadoresIe.cs" />
-    <Compile Include="ValidaIePr.cs" />
+    <Compile Include="ResultadoValidacao.cs" />
+    <Compile Include="ValidacaoCnpj.cs" />
+    <Compile Include="ValidacaoCPF.cs" />
+    <Compile Include="ValidacaoIePernambuco.cs" />
+    <Compile Include="ValidacaoIeTocantins.cs" />
+    <Compile Include="ValidacaoDocumentos.cs" />
+    <Compile Include="Validadores.cs" />
+    <Compile Include="ValidacaoIeAcre.cs" />
+    <Compile Include="ValidacaoIeParana.cs" />
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
