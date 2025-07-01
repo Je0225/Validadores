@@ -31,7 +31,7 @@ namespace Validadores {
       }
     }
 
-    private void ExibeValidacao(TextBox control, RetornoValidacoes validacao, String documento) {
+    private void ExibeValidacao(TextBox control, ResultadoValidacoes validacao, String documento) {
       lblResultado.BackColor = validacao.EhValido ? Color.LightGreen : Color.Red;
       lblResultado.Text = documento;
       lblResultado.Text += validacao.EhValido ? @" Válido(a)" : @" Inválido(a)";

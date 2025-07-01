@@ -12,9 +12,9 @@ namespace Validadores {
 
   internal class ValidadoresCpfCnpj: ValidadoresDocumentos {
 
-    public RetornoValidacoes ValidaCpf(String cpfInformado) {
+    public ResultadoValidacoes ValidaCpf(String cpfInformado) {
       String cpf = RetornaSoNumeros(cpfInformado);
-      RetornoValidacoes validacao = new RetornoValidacoes {
+      ResultadoValidacoes validacao = new ResultadoValidacoes {
         EhValido = QuantiaDigitosValida(cpf, 11)
       };
       if (validacao.EhValido) {
@@ -26,9 +26,9 @@ namespace Validadores {
       return validacao;
     }
 
-    public RetornoValidacoes ValidaCnpj(String cnpjInformado) {
+    public ResultadoValidacoes ValidaCnpj(String cnpjInformado) {
       String cnpj = RetornaSoNumerosELetras(cnpjInformado);
-      RetornoValidacoes validacao = new RetornoValidacoes {
+      ResultadoValidacoes validacao = new ResultadoValidacoes {
         EhValido = QuantiaDigitosValida(cnpj, 14)
       };
       if (validacao.EhValido) {

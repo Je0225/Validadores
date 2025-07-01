@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Validadores {
-  internal class RetornoValidacoes {
+  internal class ResultadoValidacoes {
 
     private String documento;
 

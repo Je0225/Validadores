@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 namespace Validadores {
   internal class ValidadoresDocumentos {
 
+    protected Int32[] PesosDv1 { get; set; }
+
+    protected Int32[] PesosDv2 { get; set; }
+
     protected Boolean QuantiaDigitosValida(String documento, Int32 quantiaEsperada) {
       return documento.Length == quantiaEsperada && documento.Distinct().Count() > 1;
     }
