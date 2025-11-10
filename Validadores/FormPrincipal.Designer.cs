@@ -86,6 +86,7 @@
       this.tbIe.Name = "tbIe";
       this.tbIe.Size = new System.Drawing.Size(171, 20);
       this.tbIe.TabIndex = 4;
+      this.tbIe.Tag = "IE";
       // 
       // tbCpf
       // 
@@ -93,6 +94,7 @@
       this.tbCpf.Name = "tbCpf";
       this.tbCpf.Size = new System.Drawing.Size(171, 20);
       this.tbCpf.TabIndex = 0;
+      this.tbCpf.Tag = "CPF";
       // 
       // tbCnpj
       // 
@@ -100,16 +102,17 @@
       this.tbCnpj.Name = "tbCnpj";
       this.tbCnpj.Size = new System.Drawing.Size(171, 20);
       this.tbCnpj.TabIndex = 2;
+      this.tbCnpj.Tag = "CNPJ";
       // 
       // cbUf
       // 
+      this.cbUf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.cbUf.FormattingEnabled = true;
       this.cbUf.Location = new System.Drawing.Point(226, 69);
       this.cbUf.Name = "cbUf";
       this.cbUf.RightToLeft = System.Windows.Forms.RightToLeft.No;
       this.cbUf.Size = new System.Drawing.Size(75, 21);
       this.cbUf.TabIndex = 5;
-      this.cbUf.Text = "UF";
       // 
       // btnValidaCpf
       // 

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Validadores {
   internal class Validadores{
@@ -20,7 +15,7 @@ namespace Validadores {
 
     private ValidacaoCPF ValidadorCpf { get; } = new ValidacaoCPF();
 
-    private ValidacaoCnpj ValidadorCnpj { get; } = new ValidacaoCnpj();
+    private ValidadorCnpj ValidadorCnpj { get; } = new ValidadorCnpj();
 
     public ResultadoValidacao ValidaIeParana(String ieInformada) {
       return ValidadorPr.ValidaIe(ieInformada);
