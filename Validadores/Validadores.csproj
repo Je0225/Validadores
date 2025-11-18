@@ -54,7 +54,6 @@
     </Compile>
     <Compile Include="CalculosDvs\CalculoDigitosVerficadoresIe.cs" />
     <Compile Include="Helpers\ValidadorCnpjHelper.cs" />
-    <Compile Include="Helpers\ValidadorIeTocantisHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultadoValidacao.cs" />

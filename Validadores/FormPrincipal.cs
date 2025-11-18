@@ -10,7 +10,7 @@ namespace Validadores {
     public FormPrincipal() {
       InitializeComponent();
       lblResultado.Text = "";
-      cbUf.Items.AddRange(ValidadorRegistry.estados);
+      cbUf.Items.AddRange(ValidadorRegistry.Estados);
     }
 
     private void ValidaEntradaDocumento(TextBox tb, IValidadorDocumento validador) {
@@ -33,12 +33,12 @@ namespace Validadores {
     }
 
     private void btnValidaCpf_Click(object sender, EventArgs e) {
-      IValidadorDocumento validador = ValidadorRegistry.documentos[(String)tbCpf.Tag];
+      IValidadorDocumento validador = ValidadorRegistry.Documentos[(String)tbCpf.Tag];
       ValidaEntradaDocumento(tbCpf, validador);
     }
 
     private void btnValidarCnpj_Click(object sender, EventArgs e) {
-      IValidadorDocumento validador = ValidadorRegistry.documentos[(String)tbCnpj.Tag];
+      IValidadorDocumento validador = ValidadorRegistry.Documentos[(String)tbCnpj.Tag];
       ValidaEntradaDocumento(tbCnpj, validador);
     }
 

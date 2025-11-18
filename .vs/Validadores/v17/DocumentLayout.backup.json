@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadorregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadorregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\helpers\\validadorcnpjhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\helpers\\validadorcnpjhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\helpers\\validadorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\helpers\\validadorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\helpers\\validadorietocantishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\helpers\\validadorietocantishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\validadores\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadores\\validadorietocantins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\validadorietocantins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadores\\validadorieacre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\validadorieacre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadores\\validadoriepernambuco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\validadoriepernambuco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadores\\validadorcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\validadorcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|c:\\users\\user\\documents\\sources\\csharp\\validadores\\validadores\\validadores\\validadorcnpj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\validadorcnpj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\validadores\\validadores\\contratos\\ivalidadordocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E56B485-0B49-47EA-8641-0E609467AE01}|Validadores\\Validadores.csproj|solutionrelative:validadores\\validadores\\contratos\\ivalidadordocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,78 +50,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidadorIeTocantisHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorIeTocantisHelper.cs",
-              "RelativeDocumentMoniker": "Validadores\\Helpers\\ValidadorIeTocantisHelper.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorIeTocantisHelper.cs",
-              "RelativeToolTip": "Validadores\\Helpers\\ValidadorIeTocantisHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ValidadorIeAcre.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIeAcre.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\ValidadorIeAcre.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIeAcre.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\ValidadorIeAcre.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:31:45.847Z",
+              "WhenOpened": "2025-11-18T12:41:29.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidadorHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorHelper.cs",
-              "RelativeDocumentMoniker": "Validadores\\Helpers\\ValidadorHelper.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorHelper.cs",
-              "RelativeToolTip": "Validadores\\Helpers\\ValidadorHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ValidadorIePernambuco.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIePernambuco.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\ValidadorIePernambuco.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIePernambuco.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\ValidadorIePernambuco.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:29:09.844Z",
+              "WhenOpened": "2025-11-18T12:41:24.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValidadorCnpjHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorCnpjHelper.cs",
-              "RelativeDocumentMoniker": "Validadores\\Helpers\\ValidadorCnpjHelper.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Helpers\\ValidadorCnpjHelper.cs",
-              "RelativeToolTip": "Validadores\\Helpers\\ValidadorCnpjHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "ValidadorIeTocantins.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIeTocantins.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\ValidadorIeTocantins.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorIeTocantins.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\ValidadorIeTocantins.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:28:54.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidadorRegistry.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\ValidadorRegistry.cs",
-              "RelativeDocumentMoniker": "Validadores\\ValidadorRegistry.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\ValidadorRegistry.cs",
-              "RelativeToolTip": "Validadores\\ValidadorRegistry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:04:42.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResultadoValidacao.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\ResultadoValidacao.cs",
-              "RelativeDocumentMoniker": "Validadores\\ResultadoValidacao.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\ResultadoValidacao.cs",
-              "RelativeToolTip": "Validadores\\ResultadoValidacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:03:48.376Z",
+              "WhenOpened": "2025-11-18T12:41:18.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ValidadorCPF.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorCPF.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\ValidadorCPF.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorCPF.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\ValidadorCPF.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:41:12.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidadorCnpj.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorCnpj.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\ValidadorCnpj.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\ValidadorCnpj.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\ValidadorCnpj.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:37:42.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IValidadorDocumento.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\Contratos\\IValidadorDocumento.cs",
+              "RelativeDocumentMoniker": "Validadores\\Validadores\\Contratos\\IValidadorDocumento.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\Validadores\\Contratos\\IValidadorDocumento.cs",
+              "RelativeToolTip": "Validadores\\Validadores\\Contratos\\IValidadorDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T11:30:06.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Validadores\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Sources\\CSharp\\Validadores\\Validadores\\FormPrincipal.cs",
               "RelativeToolTip": "Validadores\\FormPrincipal.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T19:12:19.888Z",
               "EditorCaption": ""
